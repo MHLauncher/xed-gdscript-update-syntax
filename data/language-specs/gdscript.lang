@@ -149,7 +149,8 @@
 
         <context id="keyword" style-ref="keyword">
           <keyword>and</keyword>
-          <keyword>assert</keyword>          
+          <keyword>assert</keyword>
+          <keyword>bool</keyword>
           <keyword>break</keyword>
           <keyword>breakpoint</keyword>
           <keyword>class</keyword>
@@ -186,23 +187,37 @@
 
         <context id="builtin-objects" style-ref="builtin-object">
           <prefix>(?&lt;![\w\.])</prefix>
-          <keyword>Vector2</keyword>
-          <keyword>Size2</keyword>
-          <keyword>Rect2</keyword>
-          <keyword>Vector3</keyword>
-          <keyword>Matrix32</keyword>
-          <keyword>Plane</keyword>
-          <keyword>Quat</keyword>
           <keyword>AABB</keyword>
+          <keyword>Array</keyword>
+          <keyword>Basis</keyword>
           <keyword>Box3</keyword>
-          <keyword>Matrix3</keyword>
-          <keyword>Transform</keyword>
           <keyword>Color</keyword>
           <keyword>Image</keyword>
-          <keyword>NodePath</keyword>
-          <keyword>RID</keyword>
-          <keyword>Object</keyword>
           <keyword>InputEvent</keyword>
+          <keyword>Matrix32</keyword>
+          <keyword>Matrix3</keyword>
+          <keyword>NodePath</keyword>
+          <keyword>Object</keyword>
+          <keyword>Plane</keyword>
+          <keyword>Projection</keyword>
+          <keyword>Quat</keyword>
+          <keyword>Quaternion</keyword>
+          <keyword>RID</keyword>
+          <keyword>Rid</keyword>
+          <keyword>Rect2</keyword>
+          <keyword>Rect2i</keyword>
+          <keyword>Size2</keyword>
+          <keyword>StringName</keyword>
+          <keyword>Transform</keyword>
+          <keyword>Transform2D</keyword>
+          <keyword>Transform3D</keyword>
+          <keyword>Variant</keyword>
+          <keyword>Vector2</keyword>
+          <keyword>Vector2i</keyword>
+          <keyword>Vector3</keyword>
+          <keyword>Vector3i</keyword>
+          <keyword>Vector4</keyword>
+          <keyword>Vector4i</keyword>
         </context>
 
         <context id="builtin-function" style-ref="builtin-function">
